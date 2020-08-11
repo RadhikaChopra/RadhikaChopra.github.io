@@ -21,7 +21,7 @@ header{
 
 }
 
-#containerdiv {
+#maindiv {
   margin-top: 60px;
   margin-right: 130px;
 }
@@ -30,31 +30,27 @@ body {
   background-color: #FFF5EE;
 }
 
-nav ul {
-  list-style-type: none;
-  margin-top: 30px;
-  padding: 0px;
-  overflow: hidden;
-  
+#sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-nav li {
-  display: block;
-  background-color: #FA8072;
-  padding: 15px;
-  border-radius: 12px;
-
-}
-
-nav li a:link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  padding: 15px;
-  color: #FFF5EE;
+#sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 
 }
-nav li a:hover {
+#sidenav a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 15px 15px;
@@ -91,21 +87,19 @@ Radhika Chopra
 S3873355<br>
 radchopra8@gmail.com<br></h1></p>
 </logodiv>
-<nav>
-<ul>
+<div class="sidenav">
     <li><a href="Index.html">Home</a></li>
     <li><a href="AboutMe.html">About Me</a></li>
     <li><a href="Personality.html">Personal traits</a></li>
     <li><a href="IdealJob.html">The Future</a></li>
     <li><a href="Project.html">My Project</a></li>
-  </ul>
-</nav>
-  <div id="containerdiv">
+</div>
+  <div id="maindiv">
 <p>
   These results resonate with me and I think most of the results match. I think the creativity test was interesting as I’ve never looked at my skills split across different facets. It’s nice to see what my strengths and weaknesses are in that area.
   In terms of group work, I think I would need to find a team where I can play to my strengths. If it was necessary, I’d be willing to manage the group to put us in the right direction, and I would like to be with those who communicate well. I’d be willing to help others and try to problem-solve. I also believe I would push ideation to the limit, and it might be good for me to have others in the group that would be willing to draw a line when I’m too unrealistic.
  </p>
-</containerdiv>
+</maindiv>
 
 </body>
 </html>
